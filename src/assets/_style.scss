@@ -1,0 +1,30 @@
+// generals rules
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+img{
+    width: 100%;
+}
+
+// rules 
+
+.containerFluid{
+    width:100%;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
