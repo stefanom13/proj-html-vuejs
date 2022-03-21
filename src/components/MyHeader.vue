@@ -28,7 +28,7 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'MyHeader',
   props: {
     
   }
@@ -52,13 +52,14 @@ export default {
     display:flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 15px;
+   
 
     figure{
-      padding:10px;
+      // padding:10px;
 
       img{
-        width:80%;
+        width:150px;
+        
       }
     }
     .container-list{
