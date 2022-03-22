@@ -23,10 +23,10 @@
 </template>
 
 <script>
+
 export default {
   name: 'MyMain',
-  props: {
-    
+  components: {
   }
 }
 </script>
@@ -106,7 +106,7 @@ export default {
 
           p{
             color:#8d8d8d;
-          
+            line-height: 28px;
           }
         }
 

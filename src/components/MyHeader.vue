@@ -11,8 +11,8 @@
           <div class="container-list">
 
             <ul class="list-ul">
-              <li>
-                ciao
+              <li v-for="(link,i) in links" :key="i">
+                <a href="#">{{link.text}}</a>
               </li>
             </ul>
             <button class="btn">Join us</button>
@@ -29,9 +29,37 @@
 <script>
 export default {
   name: 'MyHeader',
-  props: {
-    
-  }
+    data(){
+    return {
+      links: [
+        {
+          text: "Home",
+          href: "#"
+        },
+        {
+          text: "Apple",
+          href: "#"
+        },
+        {
+          text: "Microsoft",
+          href: "#"
+        },
+        {
+          text: "Android",
+          href: "#"
+        },
+        {
+          text: "Forum",
+          href: "#"
+        },
+        {
+          text: "Contact us",
+          href: "#"
+        },
+        
+      ]
+    }
+  }  
 }
 </script>
 
@@ -82,6 +110,12 @@ export default {
     .list-ul{
      display:flex;
      gap: 25px;
+
+     li {
+       a{
+         font-size: 12px;
+       }
+     }
     }
    
   }
