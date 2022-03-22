@@ -1,6 +1,8 @@
 <template>
- <div class="hello">
-   benvienidos 
+ <div class="container-fluid">
+   <div class="container">
+     benvienidos 
+   </div>
  </div>
   
 </template>
@@ -16,7 +18,12 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-    .hello{
-        height: 100px;
+    .container-fluid {
+      height: 100px;
+
+      .container{
+        border: 1px solid blue;
+        padding: 30px 0px;
+      }
     }
 </style>
