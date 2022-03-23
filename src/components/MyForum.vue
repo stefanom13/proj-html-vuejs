@@ -26,23 +26,7 @@
                     ciao
                 </div>
             </div>
-            <div class="row">
-                <div class="col">
-                    <figure>
-                        icona
-                    </figure>
-                    <p>testo</p>
-                </div>
-                <div class="col">
-                    ciao
-                </div>
-                    <div class="col">
-                    ciao
-                </div>
-                    <div class="col">
-                    ciao
-                </div>
-            </div>
+        
         </div>
 
         <div class="contens">
@@ -107,7 +91,6 @@ export default {
                 display:flex;
                 align-items: center;
                 flex-direction:column;
-                height:100px;
                 background-color:white;
                 border-top: 2px solid #27aabe;
 

@@ -1,31 +1,34 @@
 <template>
  <div class="container-fluid">
+
     <div class="container">
       <div class="titleRow">
        <p class="paragraphRow">phasellus eget mesus</p>
        <h3>All the latest new</h3>
       </div>
       <div class="containerCard">
-        <!-- card vfor article in array1 :data="article" -->
         <MyCard class="card" v-for="(el,i) in firstArray" :key="i" 
         :image="el.image" 
         :title="el.title"
         :date="el.date"
         :comment="el.comment" />
       </div>
-      
     </div> 
+
     <MySlide/>
 
-     <div class="container">
+    <div class="container">
       <div class="containerCard">
-       <!-- <MyCard class="card" v-for="(el,i) in firstArray" :key="i" 
+       <MyCard class="card" v-for="(el,i) in secondArray" :key="i" 
         :image="el.image" 
         :title="el.title"
         :date="el.date"
-        :comment="el.comment" /> -->
+        :comment="el.comment" />
       </div>
     </div> 
+
+    <MyFooterPromotions/>
+
  </div>
 
   
@@ -35,12 +38,14 @@
 
 import MyCard from './MyCard.vue'
 import MySlide from './MySlide.vue'
+import MyFooterPromotions from './MyFooterPromotions.vue'
 
 export default {
   name: 'MyPromotions',
   components: {
     MyCard,
     MySlide,
+    MyFooterPromotions,
   },
   data(){
     return {
@@ -65,6 +70,26 @@ export default {
         },
        
         
+      ],
+      secondArray:[
+        {
+          image:require("../assets/img/post_feat_img_22-320x202.jpg"),
+          title:"Fusce sollicitudin nunc sed placerat varius",
+          date:"October 11th,2015 | comments off",
+          comment:"Donec finibus sit amet orci eget ultricies.Praesent posuere ante ut, erat fringilla,vestibulum placerat metus mattis.Aenean dictum vitae nist",
+        },
+        {
+          image:require("../assets/img/post_feat_img_21-320x202.jpg"),
+          title:"Donec ornare pretium eget scelisque justo",
+          date:"October 11th,2015 | comments off",
+          comment:"Donec finibus sit amet orci eget ultricies.Praesent posuere ante ut, erat fringilla,vestibulum placerat metus mattis.Aenean dictum vitae nist",
+        },
+        {
+          image:require("../assets/img/post_feat_img_20-320x202.jpg"),
+          title:"Proin eu purus sed aru aliquet curabir vens",
+          date:"October 11th,2015 | comments off",
+          comment:"Donec finibus sit amet orci eget ultricies.Praesent posuere ante ut, erat fringilla,vestibulum placerat metus mattis.Aenean dictum vitae nist",
+        },
       ]
     }
   },
@@ -78,13 +103,14 @@ export default {
 
       .container{
         // border: 1px solid blue;
-        padding: 15px 0px;
+        // padding: 15px 0px;
         display: flex;
         align-items: center;
         flex-direction: column;
         gap: 10px;
         .titleRow{
           text-align: center;
+          padding-top: 35px;
 
           .paragraphRow{
             padding:10px 0px;
@@ -107,9 +133,6 @@ export default {
 
           .card{
             width: calc( 100% / 3 );
-            padding-left: 5px;
-           
-            
 
             figure{
               padding:10px;

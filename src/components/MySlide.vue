@@ -23,9 +23,9 @@ export default {
 
 <style lang="scss" scoped>
     .container-fluid{
-        padding:5px 0px;
+        padding:25px 0px;
         .container {
-            padding: 10px;
+            
             min-height:400px;
             background: url('../assets/img/featured_article_1_bg.jpg');
             background-repeat: no-repeat;
