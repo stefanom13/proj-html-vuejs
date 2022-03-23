@@ -38,15 +38,13 @@ export default {
   color: black;
   width: 100%;
   font-size: 12px;
-  // padding: 6px;
+
 }
 .dateCard{
   font-size: 10px;
-  // text-align: left;
-  // width:262px;
-  // margin: 0 auto;
-  padding-bottom: 10px;
+  padding: 6px 0px;
 }
 .commentCard{
+  padding-top: 5px;
 } 
 </style>
