@@ -12,7 +12,7 @@
           <div class="row">
            <h2>avada   forum   is  the  place  to  be</h2>
            <p>
-            in quis lectus sed leo elementum faucibus in dapibus dictum.
+            In quis lectus sed leo elementum faucibus in dapibus dictum.
             Nulla molestie tortor nec lectus venenatis, sed blandit dui finibus.
             dolor at,bibendum purus.Donec vehicula nec tortor ac finibus.
           </p>
@@ -37,7 +37,7 @@ export default {
     min-height:500px;
     background: url('../assets/img/home_slider_bg.jpg');
     background-repeat: no-repeat;
-    // background-position: cover;
+    // background-position: center;
     background-size: cover;
 
     .container{

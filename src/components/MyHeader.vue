@@ -16,7 +16,8 @@
               </li>
             </ul>
             <button class="btn">Join us</button>
-            <p>icona</p>
+            <p> icona </p>
+            <!-- <font-awesome-icon icon="fa-solid fa-magnifying-glass" /> -->
           </div>
         </div>
 
