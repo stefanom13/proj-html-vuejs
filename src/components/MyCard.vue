@@ -46,5 +46,6 @@ export default {
 }
 .commentCard{
   padding-top: 5px;
+  padding-bottom: 15px;
 } 
 </style>

@@ -42,9 +42,21 @@ export default {
     return {
       firstArray:[
         {
-          image:"../assets/img/post_feat_img_25-320x202.jpg",
+          image:require("../assets/img/post_feat_img_25-320x202.jpg"),
           title:"Morbi vitae dui euismod vulputate sollicitudin",
-          date:"October 11th,2015 !! 2 comments",
+          date:"October 11th,2015 ! 2 comments",
+          comment:"Donec finibus sit amet orci eget ultricies.Praesent posuere ante ut, erat fringilla,vestibulum placerat metus mattis.Aenean dictum vitae nist",
+        },
+        {
+          image:require("../assets/img/post_feat_img_24-320x202.jpg"),
+          title:"Vivamus pellenteque,felis quis varius",
+          date:"October 11th,2015 | comments off",
+          comment:"Donec finibus sit amet orci eget ultricies.Praesent posuere ante ut, erat fringilla,vestibulum placerat metus mattis.Aenean dictum vitae nist",
+        },
+        {
+          image:require("../assets/img/post_feat_img_23-320x202.jpg"),
+          title:"Donec ornare pretium eget scelisque justo",
+          date:"October 11th,2015 | comments off",
           comment:"Donec finibus sit amet orci eget ultricies.Praesent posuere ante ut, erat fringilla,vestibulum placerat metus mattis.Aenean dictum vitae nist",
         },
        
@@ -61,7 +73,7 @@ export default {
      
 
       .container{
-        border: 1px solid blue;
+        // border: 1px solid blue;
         padding: 15px 0px;
         display: flex;
         align-items: center;
@@ -92,7 +104,7 @@ export default {
           .card{
             width: calc( 100% / 3 );
             padding-left: 5px;
-            border:1px solid blue;
+           
             
 
             figure{
