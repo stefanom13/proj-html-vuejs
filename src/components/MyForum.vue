@@ -6,7 +6,7 @@
         <div class="container">
             <div class="infoForum">
                 <p class="commentForum">phasellus eget mesus</p>
-                <h2 class="titleForum">Forum section</h2>
+                <h2 class="titleForum">Forum Section</h2>
             </div>
 
             <div class="row">
@@ -89,7 +89,9 @@ export default {
                 padding-top:15px;
             }
             .titleForum{
-                padding:15px 0px;
+                padding-top:15px;
+                font-size: 28px;
+                padding-bottom: 25px;
             }
         }
 
@@ -98,7 +100,7 @@ export default {
             display:flex;
             align-items:center;
             padding:10px 0px;
-            gap: 10px;
+            gap: 40px;
             .col{
                 width: calc( 100% / 4 );
                 padding:10px;
@@ -107,7 +109,7 @@ export default {
                 flex-direction:column;
                 height:100px;
                 background-color:white;
-                border: 1px solid blue;
+                border-top: 2px solid #27aabe;
 
                 figure{
                     width:40px;

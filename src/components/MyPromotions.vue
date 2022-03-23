@@ -17,11 +17,15 @@
     </div> 
     <MySlide/>
 
-    <!-- <div class="container">
+     <div class="container">
       <div class="containerCard">
-       
+       <!-- <MyCard class="card" v-for="(el,i) in firstArray" :key="i" 
+        :image="el.image" 
+        :title="el.title"
+        :date="el.date"
+        :comment="el.comment" /> -->
       </div>
-    </div> -->
+    </div> 
  </div>
 
   

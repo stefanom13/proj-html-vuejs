@@ -47,5 +47,8 @@ export default {
 .commentCard{
   padding-top: 5px;
   padding-bottom: 15px;
+  font-size:13px;
+  line-height:20px;
+  color: #727274e0;
 } 
 </style>
