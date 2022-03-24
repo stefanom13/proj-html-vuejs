@@ -4,6 +4,7 @@
     <MyMain/>
     <MyPromotions/>
     <MyForum/>
+    <MyComunities/>
 
   </div>
 </template>
@@ -13,6 +14,7 @@ import MyHeader from './components/MyHeader.vue'
 import MyMain from './components/MyMain.vue'
 import MyPromotions from './components/MyPromotions.vue'
 import MyForum from './components/MyForum.vue'
+import MyComunities from './components/MyComunities.vue'
 
 
 
@@ -23,6 +25,7 @@ export default {
     MyMain,
     MyPromotions,
     MyForum,
+    MyComunities,
   }
 }
 </script>

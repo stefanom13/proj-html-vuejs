@@ -142,7 +142,7 @@ name: "MyForum",
             gap: 40px;
             .col{
                 width: calc( 100% / 4 );
-                padding:10px;
+                padding:30px 0px;
                 display:flex;
                 align-items: center;
                 flex-direction:column;
@@ -153,11 +153,12 @@ name: "MyForum",
                    overflow: hidden;
                     border-radius: 9999px;
                     padding:15px;
+               
                     background-color: #fc8c5e;
                 }
                 p{
                     padding-top:10px;
-                    padding-bottom: 30px;
+                    // padding-bottom: 30px;
                     font-weight:700;
                 }
             }
