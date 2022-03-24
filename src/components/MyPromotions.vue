@@ -118,6 +118,7 @@ export default {
             text-transform: uppercase;
             font-size: 12px;
             font-weight: 700;
+            letter-spacing:2px;
           }
           h3{
             font-size: 30px;

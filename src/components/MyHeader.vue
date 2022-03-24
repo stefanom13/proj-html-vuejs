@@ -16,7 +16,9 @@
               </li>
             </ul>
             <button class="btn">Join us</button>
-            <p> icona </p>
+            <div class="icon">
+              <img src="../assets/ico/3643762-find-glass-magnifying-search-zoom_113420.png" alt="">
+            </div>
             <!-- <font-awesome-icon icon="fa-solid fa-magnifying-glass" /> -->
           </div>
         </div>
@@ -106,6 +108,9 @@ export default {
         cursor: pointer;
         text-transform: uppercase;
        
+      }
+      .icon{
+        width:20px;
       }
     }
     .list-ul{

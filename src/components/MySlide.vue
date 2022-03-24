@@ -42,6 +42,7 @@ export default {
                     text-transform: uppercase;
                     color: white;
                     padding:10px 0;
+                    letter-spacing:2px;
                 }
                 h1{
                     color: white;

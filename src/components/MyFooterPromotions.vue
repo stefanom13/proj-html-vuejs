@@ -4,10 +4,10 @@
           <div class="colImg">
 
             <div class="contPromotions">
-                <h3>ciao</h3>
-                <h1>ciaone</h1>
-                <p>commenti</p>
-                <button>botton</button>
+                <p class="titleArticle">Reviewed Product</p>
+                <h1>Mauris viverra atisan ipsum eget felis primis efficitur varius</h1>
+                <p>in quis lectus sed leo elementum faucibus in dapibus dictum, Nullamolestie tortur nec lectus, sed blandit dui, dolor at bibendum.</p>
+                <button>Read more </button>
             </div>
 
           </div>
@@ -35,19 +35,19 @@ export default {
     return {
       cards: [
         {
-          img:require('../assets/img/post_feat_img_23-177x142.jpg'),
-          title: "titolo",
-          comment: "commento"
+          img:require('../assets/img/post_feat_img_23-147x118.jpg'),
+          title: "Donec ornare pretium eget scelisque justo",
+          comment: "October 11th, 2015 | Commento off"
         },
         {
           img:require('../assets/img/post_feat_img_22-147x118.jpg'),
-          title: "titolo",
-          comment: "commento"
+          title: "Fusce sollicitudin nunc sed placerat varius",
+          comment: "October 11th, 2015 | Commento off"
         },
         {
           img:require('../assets/img/post_feat_img_20-147x118.jpg'),
-          title: "titolo",
-          comment: "commento"
+          title: "Proin eu purus sed aru aliquet curabir vens",
+          comment: "October 11th, 2015 | Commento off"
         },
      
         
@@ -81,7 +81,28 @@ export default {
             padding-left: 40px;
 
             .contPromotions{
-                color: white;
+                h1{
+                    color: white;
+                    padding:10px 0;
+                    font-style:italic;
+                }
+                .titleArticle{
+                    text-transform: uppercase;
+                    padding:10px 0;
+                    letter-spacing:2px;
+                }
+                p{
+                    color: rgba(255, 255, 255, 0.719);
+                    padding:10px 0;
+                    font-size: 14px;
+                    line-height:23px;
+                }
+                button{
+                    padding:10px 25px;
+                    background-color:black;
+                    color: white;
+                    border: none;
+                }
             }
         }
         .colNews{
@@ -95,15 +116,13 @@ export default {
             }
 
             .card{
-                
                 display: flex;
-                padding: 4px 0px;
                 gap: 10px;
+                padding-bottom: 4px;
 
 
                 figure{
-                    width:90px;
-                    
+                
                     img{
                         background-repeat: no-repeat;
                         background-position: center;
@@ -111,6 +130,7 @@ export default {
                     }
                 }
                 .contInfo{
+                    padding-top:3px;
                     .firstInfo{
                         font-size: 13px;
                         font-weight:700;
