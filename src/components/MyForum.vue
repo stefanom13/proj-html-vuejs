@@ -117,7 +117,7 @@ name: "MyForum",
         display:flex;
         flex-direction:column;
         align-items:center;
-        padding:10px 0px;
+        padding:55px 0px;
         background-color:#eee3d6;
 
         .infoForum{

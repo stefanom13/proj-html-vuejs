@@ -18,7 +18,7 @@ export default {
             JoinCo: [
 
                 {
-                title: "Hey,Joind tu our Community",
+                title: "Hey! Join tu our Community",
                 comment: "Nulla molestie tortor nec lectus venenatis, sed blandit dui finibusdolor at,bibendum purus"
                 },
             ]
